@@ -18,7 +18,23 @@ npm install vue-router@4
 
 # 安装脚手架
 
-安装：
+设置淘宝镜像：
+
+```vue
+npm config set registry https://registry.npm.taobao.org
+```
+
+
+
+安装脚手架：
+
+```vue
+npm install -g @vue/cli
+```
+
+
+
+安装vue：
 
 ```vue
 vue create 项目名
