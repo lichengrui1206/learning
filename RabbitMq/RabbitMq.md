@@ -17,3 +17,16 @@
 优点：非阻塞，提高性能，增强可扩展性，耦合度第，异步调用无需等待，缓存消息，销量削峰填谷
 
 缺点：不能立即得到调用结果，时效性差，不确定下游业务执行是否成功，业务安全依赖于Broker的可靠性
+
+## 如何实现生产者和消费者
+
+#### 引入包依赖
+
+```html
+	<dependency>
+            <groupId>com.rabbitmq</groupId>
+            <artifactId>amqp-client</artifactId>
+            <version>5.16.0</version>
+ 	</dependency>
+```
+
